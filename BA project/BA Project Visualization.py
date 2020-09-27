@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 26 07:25:50 2020
-
-@author: 10331
-"""
-
 
 import pandas as pd
 pd.set_option('display.max_columns', None)
@@ -110,5 +102,3 @@ for i in list(df. columns):
 sns.pairplot(df)
 sns.catplot("hotel","country", data = df)
 type(df["country"][5])
-isinstance(df["country"], str)
->>>>>>> 3535723922044c17d454d86be6b3b122fefeb6f0
