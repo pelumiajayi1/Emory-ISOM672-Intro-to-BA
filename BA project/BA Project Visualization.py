@@ -53,4 +53,3 @@ for i in list(df. columns):
 sns.pairplot(df)
 sns.catplot("hotel","country", data = df)
 type(df["country"][5])
-isinstance(df["country"], str)
